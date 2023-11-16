@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DINO</title>
+    <script defer src="JS.js"></script>
+    <style>
+        body{
+            margin: 0px;
+            padding: 100px 10px 0px 10px;
+            background-color: black;
+        }
+        #DINO{
+            background-color: rgb(255, 2, 175);
+            width: 60px;
+            height: 100px;
+            position: absolute;
+            top: 400px;
+            margin-left: 20px;
+        }
+        #JEU{
+            background-color: rgb(255, 200, 132);
+            width: 100%;
+            height: 500px;
+        }
+        #SOL{
+            height: 350px;
+            background-color: rgb(177, 238, 255);
+        }
+        .clouds{
+            background-color: white;
+            width: 60px;
+            height: 30px;
+            position: absolute;
+        }
+        .obst{
+            background-color: gray;
+            width: 20px;
+            height: 40px;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <div id="JEU">
+        <div id="SOL"></div>
+        <!-- JOUEUR -->
+        <div id="DINO"></div>
+        <!-- OBSTACLES -->
+        <div class="obst" id="OBST1"></div>
+        <div class="obst" id="OBST2"></div>
+        <div class="obst" id="OBST3"></div>
+        <!-- NUAGES -->
+        <div class="clouds" id="CLOUD1"></div>
+        <div class="clouds" id="CLOUD2"></div>
+        <div class="clouds" id="CLOUD3"></div>
+    </div>
+</body>
+</html>
